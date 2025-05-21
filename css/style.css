@@ -1,0 +1,68 @@
+/* Estilos básicos para la página */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: #ffd700; /* Color dorado para el encabezado */
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+main section {
+    padding: 2em;
+    margin-bottom: 1em;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center; /* Alinea el contenido de las secciones al centro */
+}
+
+main section h2 {
+    color: #a0522d; /* Color marrón para los títulos de sección */
+}
+
+main section article {
+    border: 1px solid #eee;
+    padding: 1em;
+    margin-bottom: 1em;
+    background-color: #fafafa;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Para que las imágenes se comporten como bloques y ocupen su propio espacio */
+    margin: 1em auto; /* Centra las imágenes */
+}
